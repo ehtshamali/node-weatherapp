@@ -1,5 +1,3 @@
-console.log('this is Js file in JS folder')
-
 // fetch('https://puzzle.mead.io/puzzle').then(function(response){
 //     response.json().then(function(data){
 //         console.log(data)
