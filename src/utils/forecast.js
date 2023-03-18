@@ -11,7 +11,7 @@ const forecast = function(latitude, longitude, callback){
             const temprature = response.body.current.temperature
             const rain = response.body.current.precip
             const description = response.body.current.weather_descriptions[0]
-            callback(undefined, description + '. It is currently '+ temprature + ' degree fahrenheit. There is a ' + rain + '% chance of rain')
+            callback(undefined, description + '. It is currently '+ temprature + ' degree fahrenheit.')
         }
     })
 }
